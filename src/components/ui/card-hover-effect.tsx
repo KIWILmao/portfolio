@@ -43,7 +43,7 @@ export const HoverEffect = ({
               link: "https://microsoft.com",
               github: "https://github.com/KIWILmao/portfolio",
               livelink: "https://shubhamparmar.me/",
-              image: ["portfolioBlack.png", "portfolio2Black.png"],
+              image: ["portfolioBlack.png", "portfolio2black.png"],
             };
           } else {
             return item;
