@@ -29,7 +29,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <Navbar />
-          {/* <CustomCursor /> */}
+          <CustomCursor />
           {children}
           <Analytics />
           <SpeedInsights />
