@@ -127,9 +127,9 @@ export const CustomCursor = () => {
     return null;
 
   return (
-    <>
+    <div className="hidden sm:block">
       <div ref={cursorOuterRef} style={styles.cursorOuter} />
       <div ref={cursorInnerRef} style={styles.cursorInner} />
-    </>
+    </div>
   );
 };
