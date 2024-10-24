@@ -93,6 +93,7 @@ const MobileMenu = ({
               <MenuItem onClick={() => handleScroll("projects")}>
                 Projects
               </MenuItem>
+              <MenuItem onClick={() => handleScroll("awards")}>Awards</MenuItem>
               <MenuItem onClick={() => handleScroll("contact")}>
                 Contact Me
               </MenuItem>
@@ -168,6 +169,10 @@ const SlideTabs = () => {
       <Tab setPosition={setPosition} onClick={() => handleScroll("projects")}>
         Projects
       </Tab>
+      <Tab setPosition={setPosition} onClick={() => handleScroll("awards")}>
+        Awards
+      </Tab>
+
       <Tab setPosition={setPosition} onClick={() => handleScroll("contact")}>
         Contact Me
       </Tab>
